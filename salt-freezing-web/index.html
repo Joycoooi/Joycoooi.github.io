@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>盐水定向冻结中的微观排盐动力学</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a href="#top" class="brand">Brine Freezing Microdynamics</a>
+      <nav aria-label="页面导航">
+        <a href="#why">为什么重要</a>
+        <a href="#method">怎么看见</a>
+        <a href="#stages">三阶段</a>
+        <a href="#findings">发现</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-media" aria-hidden="true"></div>
+        <div class="hero-copy">
+          <p class="eyebrow">Journal of Fluid Mechanics, 2025</p>
+          <h1>盐水结冰时，盐到底怎样被冰排出去？</h1>
+          <p class="lead">
+            这项工作用原位 X 射线 micro-CT 把盐水定向冻结过程拍成 4D 电影，追踪冰-盐水微结构从无序条纹到多边形网络的演化，并解释排盐为何先快后慢。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#story">开始看这项工作</a>
+            <a class="button secondary" href="https://doi.org/10.1017/jfm.2025.10633">DOI: 10.1017/jfm.2025.10633</a>
+          </div>
+        </div>
+        <aside class="paper-card" aria-label="论文信息">
+          <span>Wu, Gao, Jia, Jiang, Huppert and Lei</span>
+          <strong>Microscopic salt exclusion dynamics of directional freezing in brine</strong>
+          <small>J. Fluid Mech. 1021, A15</small>
+        </aside>
+      </section>
+
+      <section id="story" class="section intro-grid">
+        <div>
+          <p class="section-kicker">一句话</p>
+          <h2>冰并不是简单地“把盐推开”</h2>
+          <p>
+            当盐水从一端开始冻结，冰晶会快速长入过冷液体，把盐富集在尚未冻结的盐水中。随后盐水被体积膨胀、重力对流和扩散共同搬运。论文的关键贡献，是把这些机制在时间尺度上拆开，并直接观察微结构怎样迁移、变细和残留。
+          </p>
+        </div>
+        <div class="metric-strip">
+          <div>
+            <span>13.7 μm</span>
+            <p>micro-CT 体素分辨率</p>
+          </div>
+          <div>
+            <span>0.3 / 0.6 / 1.2 M</span>
+            <p>初始盐浓度，0.6 M 接近海水量级</p>
+          </div>
+          <div>
+            <span>&gt;90%</span>
+            <p>多数实验 22 h 后达到的排盐效率</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="why" class="section split">
+        <div class="text-panel">
+          <p class="section-kicker">为什么重要</p>
+          <h2>这是海冰、冷冻淡化和材料凝固共享的基本问题</h2>
+          <p>
+            海冰形成时，盐会被排到盐水通道中；冷冻淡化希望留下更干净的冰；冻铸、食品冷冻和生物低温保存也都受溶质迁移影响。过去很多理论把冰看成“多孔 mushy layer”，但缺少直接的三维时间序列来说明微结构如何一步步出现。
+          </p>
+          <ul class="plain-list">
+            <li>自然过程：海冰盐水通道、盐水口袋和多边形冰结构。</li>
+            <li>工程过程：冷冻淡化中什么时候收冰更有效。</li>
+            <li>材料过程：定向凝固中晶体形貌与溶质再分配。</li>
+          </ul>
+        </div>
+        <figure class="image-frame">
+          <img src="./assets/figure-microct.png" alt="论文图 1，显示向下和向上冻结时盐水与多孔冰的 micro-CT 时间序列">
+          <figcaption>亮色是盐水，暗色是多孔冰。向下冻结会形成盐柱，向上冻结会形成盐裙。</figcaption>
+        </figure>
+      </section>
+
+      <section id="method" class="section method-band">
+        <div class="method-copy">
+          <p class="section-kicker">怎么看见</p>
+          <h2>把 1 cm 盐水样品放进 micro-CT 里边冻边拍</h2>
+          <p>
+            实验用 KI 盐水提高 X 射线对比度，在圆柱样品上下施加温差：一端保持约 0 °C，另一端降到约 -9 °C。研究同时比较冷端在上方的向下冻结和冷端在下方的向上冻结，从而分离重力对排盐的影响。
+          </p>
+        </div>
+        <div class="process-diagram" aria-label="实验流程">
+          <div class="tube">
+            <div class="cold">冷端</div>
+            <div class="ice"></div>
+            <div class="brine"></div>
+            <div class="warm">暖端</div>
+          </div>
+          <ol>
+            <li><span>1</span>建立温度梯度</li>
+            <li><span>2</span>触发成核</li>
+            <li><span>3</span>连续 CT 扫描</li>
+            <li><span>4</span>追踪盐水条纹、盐柱和口袋</li>
+          </ol>
+        </div>
+      </section>
+
+      <section id="stages" class="section stages">
+        <div class="section-heading">
+          <p class="section-kicker">核心机制</p>
+          <h2>排盐不是一个速度，而是三个阶段</h2>
+        </div>
+        <div class="stage-grid">
+          <article>
+            <span class="stage-number">01</span>
+            <h3>秒级：成核到局部平衡</h3>
+            <p>冰晶在过冷盐水中迅速生长。这个阶段太快，长距离传热和传质还来不及主导，可近似看作局部能量和质量守恒。</p>
+          </article>
+          <article>
+            <span class="stage-number">02</span>
+            <h3>小时级：热平衡与快速排盐</h3>
+            <p>热传导重新组织温度场，水结冰的体积膨胀会挤出盐水。向下冻结中，重力相关对流让盐水更快离开多孔冰。</p>
+          </article>
+          <article>
+            <span class="stage-number">03</span>
+            <h3>长时程：扩散和残留</h3>
+            <p>后期主要由扩散控制，但实际洁净冰层增厚比理想扩散更慢，说明复杂孔隙网络和界面效应会限制最终排盐。</p>
+          </article>
+        </div>
+        <figure class="wide-figure">
+          <img src="./assets/figure-stages.png" alt="论文图 2，展示四个临界状态下温度、浓度和冰体积分数剖面">
+          <figcaption>理论剖面与 CT 提取的冰体积分数共同支持 S1 到 S4 的阶段划分。</figcaption>
+        </figure>
+      </section>
+
+      <section id="findings" class="section findings">
+        <div class="section-heading">
+          <p class="section-kicker">看到了什么</p>
+          <h2>微结构像一场缓慢重排</h2>
+        </div>
+        <div class="finding-grid">
+          <article class="finding-card">
+            <h3>条纹先出现</h3>
+            <p>成核后产生相对无序的盐水条纹，随后被更垂直、更规则的结构扫过。</p>
+          </article>
+          <article class="finding-card">
+            <h3>重力改变路径</h3>
+            <p>向下冻结中盐水向中心聚集成盐柱；向上冻结中盐水更容易在周边形成盐裙。</p>
+          </article>
+          <article class="finding-card">
+            <h3>后期不是完全干净</h3>
+            <p>22 h 后冷端附近盐水口袋体积分数多降到 10% 以下，但残留口袋比理想扩散预测更持久。</p>
+          </article>
+          <article class="finding-card">
+            <h3>高效但有方向差异</h3>
+            <p>多数实验排盐效率超过 90%。向下冻结整体更高，显示重力帮助盐水排出。</p>
+          </article>
+        </div>
+        <div class="figure-pair">
+          <figure class="image-frame">
+            <img src="./assets/figure-migration.png" alt="论文图 8，展示不同微结构特征点的迁移速率">
+            <figcaption>不同特征迁移速度排序：早期盐水条纹和盐柱最快，洁净冰层增厚最慢。</figcaption>
+          </figure>
+          <figure class="image-frame">
+            <img src="./assets/figure-desalination.png" alt="论文图 9，展示盐质量剖面和排盐效率随时间变化">
+            <figcaption>盐逐渐从多孔冰中迁移到液体端，向下冻结通常排盐更快。</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section takeaway">
+        <p class="section-kicker">分享时可以这样讲</p>
+        <h2>这篇论文把“盐被冰排出去”从一句话变成了一段可观察的微观历史</h2>
+        <p>
+          它说明排盐不是单一扩散过程：成核、热场调整、体积膨胀、重力对流、微孔网络和界面作用会在不同时间尺度接力。这个视角可以帮助理解自然海冰，也能指导冷冻淡化中如何选择冻结方向和收冰时间。
+        </p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Based on Wu et al., Journal of Fluid Mechanics, 2025. Images are rendered from the supplied paper PDF for research communication.</p>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
